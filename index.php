@@ -32,7 +32,7 @@ onfocus="this.removeAttribute('readonly');">
                 <div class="social-login">
                     <h3>Register</h3>
                     <div class="social-icons">
-                        <a href="./register.php" class="social-login__icon fa fa-home fa-2s"></a>
+                        <a href="./register.php" class="social-login__icon fa fa-registered fa-2s"></a>
                     </div>
                 </div>
             </div>
@@ -44,5 +44,10 @@ onfocus="this.removeAttribute('readonly');">
             </div>		
         </div>
     </div>
+    <?php
+        session_start();
+
+        $_SESSION['fileName']='';
+    ?>
 </body>
 </html>

@@ -20,7 +20,7 @@
     <section class="vh-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div>Hello Welcome <?php echo $_SESSION['fileName'] ?>
-                    <a href='./index.php' class='btn btn-danger' role='button'>Sing Out</a>
+                    <a href='./index.php' class='btn btn-secondary' role='button'>Sing Out</a>
                     </div>
                 <div class="col col-lg-12 col-xl-12">
                     <div class="card rounded-3">
